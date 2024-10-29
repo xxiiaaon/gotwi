@@ -3,8 +3,8 @@ package searchspace
 import (
 	"context"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/space/searchspace/types"
+	"github.com/xxiiaaon/gotwi"
+	"github.com/xxiiaaon/gotwi/space/searchspace/types"
 )
 
 const (

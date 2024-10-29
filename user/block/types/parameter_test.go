@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/user/block/types"
+	"github.com/xxiiaaon/gotwi/fields"
+	"github.com/xxiiaaon/gotwi/user/block/types"
 	"github.com/stretchr/testify/assert"
 )
 

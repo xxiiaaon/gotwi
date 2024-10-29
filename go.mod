@@ -1,4 +1,4 @@
-module github.com/michimani/gotwi
+module github.com/xxiiaaon/gotwi
 
 go 1.22
 

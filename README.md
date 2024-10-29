@@ -1,9 +1,9 @@
 gotwi
 ===
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/michimani/gotwi.svg)](https://pkg.go.dev/github.com/michimani/gotwi)
+[![Go Reference](https://pkg.go.dev/badge/github.com/xxiiaaon/gotwi.svg)](https://pkg.go.dev/github.com/xxiiaaon/gotwi)
 [![Twitter API v2](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fv2)](https://developer.twitter.com/en/docs/twitter-api)
-[![codecov](https://codecov.io/gh/michimani/gotwi/branch/main/graph/badge.svg?token=NA873TE6RV)](https://codecov.io/gh/michimani/gotwi)
+[![codecov](https://codecov.io/gh/xxiiaaon/gotwi/branch/main/graph/badge.svg?token=NA873TE6RV)](https://codecov.io/gh/xxiiaaon/gotwi)
 
 This is a library for using the Twitter API v2 in the Go language. (It is still under development).
 
@@ -109,10 +109,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/user/userlookup"
-	"github.com/michimani/gotwi/user/userlookup/types"
+	"github.com/xxiiaaon/gotwi"
+	"github.com/xxiiaaon/gotwi/fields"
+	"github.com/xxiiaaon/gotwi/user/userlookup"
+	"github.com/xxiiaaon/gotwi/user/userlookup/types"
 )
 
 func main() {
@@ -166,8 +166,8 @@ You will get the output like following.
 
 ```
 ID:           581780917
-Name:         michimani Lv.873
-Username:     michimani210
+Name:         xxiiaaon Lv.873
+Username:     xxiiaaon210
 CreatedAt:    2012-05-16 12:07:04 +0000 UTC
 PinnedTweet:  OpenAI API の Function Calling を使って自然言語で AWS リソースを作成してみる
 ```
@@ -181,9 +181,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/tweet/managetweet"
-	"github.com/michimani/gotwi/tweet/managetweet/types"
+	"github.com/xxiiaaon/gotwi"
+	"github.com/xxiiaaon/gotwi/tweet/managetweet"
+	"github.com/xxiiaaon/gotwi/tweet/managetweet/types"
 )
 
 func main() {
@@ -247,10 +247,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/user/userlookup"
-	"github.com/michimani/gotwi/user/userlookup/types"
+	"github.com/xxiiaaon/gotwi"
+	"github.com/xxiiaaon/gotwi/fields"
+	"github.com/xxiiaaon/gotwi/user/userlookup"
+	"github.com/xxiiaaon/gotwi/user/userlookup/types"
 )
 
 func main() {
@@ -263,7 +263,7 @@ func main() {
 	}
 
 	p := &types.GetByUsernameInput{
-		Username: "michimani210",
+		Username: "xxiiaaon210",
 		Expansions: fields.ExpansionList{
 			fields.ExpansionPinnedTweetID,
 		},
@@ -301,8 +301,8 @@ You will get the output like following.
 
 ```
 ID:           581780917
-Name:         michimani Lv.861
-Username:     michimani210
+Name:         xxiiaaon Lv.861
+Username:     xxiiaaon210
 CreatedAt:    2012-05-16 12:07:04 +0000 UTC
 PinnedTweet:  真偽をハッキリしたい西城秀樹「ブーリアン、ブーリアン」
 ```
@@ -366,13 +366,13 @@ if err != nil {
 
 ## More examples
 
-See [_examples](https://github.com/michimani/gotwi/tree/main/_examples) directory.
+See [_examples](https://github.com/xxiiaaon/gotwi/tree/main/_examples) directory.
 
 # Licence
 
-[MIT](https://github.com/michimani/gotwi/blob/main/LICENCE)
+[MIT](https://github.com/xxiiaaon/gotwi/blob/main/LICENCE)
 
 # Author
 
-[michimani210](https://twitter.com/michimani210)
+[xxiiaaon210](https://twitter.com/xxiiaaon210)
 

@@ -3,8 +3,8 @@ package searchtweet
 import (
 	"context"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/tweet/searchtweet/types"
+	"github.com/xxiiaaon/gotwi"
+	"github.com/xxiiaaon/gotwi/tweet/searchtweet/types"
 )
 
 const (

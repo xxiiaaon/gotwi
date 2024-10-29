@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/michimani/gotwi"
+	"github.com/xxiiaaon/gotwi"
 )
 
 func main() {

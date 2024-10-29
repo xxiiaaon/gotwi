@@ -3,8 +3,8 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/compliance/batchcompliance/types"
-	"github.com/michimani/gotwi/resources"
+	"github.com/xxiiaaon/gotwi/compliance/batchcompliance/types"
+	"github.com/xxiiaaon/gotwi/resources"
 	"github.com/stretchr/testify/assert"
 )
 

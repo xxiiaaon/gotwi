@@ -3,8 +3,8 @@ package listmember
 import (
 	"context"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/list/listmember/types"
+	"github.com/xxiiaaon/gotwi"
+	"github.com/xxiiaaon/gotwi/list/listmember/types"
 )
 
 const (

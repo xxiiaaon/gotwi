@@ -4,8 +4,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/internal/util"
+	"github.com/xxiiaaon/gotwi/fields"
+	"github.com/xxiiaaon/gotwi/internal/util"
 )
 
 type SampleStreamBackfillMinutes int

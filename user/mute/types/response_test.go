@@ -3,8 +3,8 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/resources"
-	"github.com/michimani/gotwi/user/mute/types"
+	"github.com/xxiiaaon/gotwi/resources"
+	"github.com/xxiiaaon/gotwi/user/mute/types"
 	"github.com/stretchr/testify/assert"
 )
 

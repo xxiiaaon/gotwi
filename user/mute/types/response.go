@@ -1,6 +1,6 @@
 package types
 
-import "github.com/michimani/gotwi/resources"
+import "github.com/xxiiaaon/gotwi/resources"
 
 // ListsOutput is struct for response of `GET /2/users/:id/muting`.
 // more information: https://developer.twitter.com/en/docs/twitter-api/users/mutes/api-reference/get-users-muting

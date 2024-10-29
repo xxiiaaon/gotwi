@@ -1,6 +1,6 @@
 package types
 
-import "github.com/michimani/gotwi/resources"
+import "github.com/xxiiaaon/gotwi/resources"
 
 type ListOutput struct {
 	Data     []resources.List `json:"data"`

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/michimani/gotwi/internal/gotwierrors"
-	"github.com/michimani/gotwi/resources"
+	"github.com/xxiiaaon/gotwi/internal/gotwierrors"
+	"github.com/xxiiaaon/gotwi/resources"
 )
 
 type GotwiError struct {

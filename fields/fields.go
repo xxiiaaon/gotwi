@@ -1,6 +1,6 @@
 package fields
 
-import "github.com/michimani/gotwi/internal/util"
+import "github.com/xxiiaaon/gotwi/internal/util"
 
 type Field interface {
 	String() string

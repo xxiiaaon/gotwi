@@ -1,6 +1,6 @@
 package types
 
-import "github.com/michimani/gotwi/resources"
+import "github.com/xxiiaaon/gotwi/resources"
 
 // ListOutput is struct for response of `GET /2/users`.
 // more information: https://developer.twitter.com/en/docs/twitter-api/users/lookup/api-reference/get-users
