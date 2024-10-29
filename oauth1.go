@@ -138,7 +138,9 @@ func createParameterString(nonce, ts string, in *CreateOAuthSignatureInput) stri
 	qv.Add("oauth_nonce", nonce)
 	qv.Add("oauth_signature_method", OAuthSignatureMethodHMACSHA1)
 	qv.Add("oauth_timestamp", ts)
-	qv.Add("oauth_token", in.OAuthToken)
+	if in.OAuthToken != "" {
+		qv.Add("oauth_token", in.OAuthToken)
+	}
 	qv.Add("oauth_version", OAuthVersion10)
 
 	encoded := qv.Encode()
